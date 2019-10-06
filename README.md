@@ -1,11 +1,11 @@
 # htpasswd
 
+Run `htpasswd` without installing it locally.
+
 ## Usage
 
-To generate a password file:
+Show available options:
 
 ```shell
-docker run --rm -ti xmartlabs/htpasswd <username> <password> > htpasswd
+docker run --rm -ti xlrl/htpasswd --help
 ```
-
-This will use bcrypt encryption.
